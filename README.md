@@ -25,4 +25,10 @@ from google.colab import userdata
 GOOGLE_API_KEY = userdata.get('GOOGLE_API_KEY')
 GenAi.configure(api_key=GOOGLE_API_KEY)
 
+2. Model Initialization
+Choose the Gemini model version:
+
+python
+Copy code
+model = GenAi.GenerativeModel('gemini-1.0-pro')
 
